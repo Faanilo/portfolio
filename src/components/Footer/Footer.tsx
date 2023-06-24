@@ -14,7 +14,7 @@ export function Footer(){
         <span>nilo</span>
       </a>
       <div>
-        <p>A website Building<img src={reactIcon}/> with love <span>❤️</span></p>
+        <p>THANK YOU</p>
       </div>
 
       <div className="social-media">
