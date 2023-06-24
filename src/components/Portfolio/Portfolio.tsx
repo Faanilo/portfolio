@@ -41,14 +41,11 @@ export function Portfolio() {
                 >
                   <img src={externalLinkIcon} alt="extern link" />
                 </a>
- 
               </div>
             </header>
             <div className="body">
               <h3>PortfolioGenerator</h3>
-              <p>
-              an application to create your portfolio
-              </p>
+              <p>an application to create your portfolio</p>
             </div>
             <footer>
               <ul className="tech-list">

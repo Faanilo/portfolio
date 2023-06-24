@@ -1,40 +1,21 @@
 import { Container } from "./styles";
-import { useForm, ValidationError } from '@formspree/react';
 
-export function Form(){
-
-
-  const [state, handleSubmit] = useForm("myyozglw");
+export function Form() {
   
-  return(
+  return (
     <Container>
       <h2>Get in touch using the form below.</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          placeholder="Email"
-          id="email"
-          type="email" 
-          name="email"
-        />
-        <ValidationError 
-          prefix="Email" 
-          field="email"
-          errors={state.errors}
-        />
-        <textarea
-          placeholder="Enter text"
-          id="message"
-          name="message"
-        />
-        <ValidationError 
-          prefix="Message" 
-          field="message"
-          errors={state.errors}
-        />
-        <button type="submit" disabled={state.submitting}>
+      <form
+        action="https://getform.io/f/bec145ac-14cd-445b-bd24-5139a88174bb"
+        method="POST"
+        encType="multipart/form-data"
+      >
+        <input placeholder="Email" id="email" type="email" name="email" />
+        <textarea placeholder="Enter text" id="message" name="message" />
+        <button type="submit">
           Send
         </button>
-    </form>
+      </form>
     </Container>
-  )
+  );
 }
