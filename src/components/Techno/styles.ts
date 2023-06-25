@@ -9,19 +9,18 @@ export const Container = styled.section`
     margin-bottom: 10rem;
   }
 
-  .projects {
+  .technos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
     overflow: hidden;
 
-    .project {
-      padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
+    .techno {
+      padding: 1rem 1.8rem;
       border-radius: 1.2rem;
-      transition: 0.25s;
+      transition: 0.2s;
       display: flex;
       flex-direction: column;
       height: 100%;
