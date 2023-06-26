@@ -1,11 +1,24 @@
-#skills {
+/*#skills {
     width: 150px;
     height: 100px;
     background: none;
     border: none;
     fill: none;
-    stroke: #016fb9;
     stroke-width: 1;
     stroke-linecap: round;
     stroke-linejoin: round;
-}
+}*/
+/*#skills {
+    width: 100%;
+    height: auto;
+    background: none;
+    border: none;
+    fill: none;
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  */
