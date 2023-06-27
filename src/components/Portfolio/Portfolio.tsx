@@ -9,7 +9,7 @@ export function Portfolio() {
       <h2>All project</h2>
 
       <div className="projects">
-        <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInX" delay={0.6*1000}>
           <div className="project">
             <header>
               <svg
@@ -35,7 +35,7 @@ export function Portfolio() {
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a
-                  href="https://faanilo-portfolio-s8eo.vercel.app/"
+                  href="https://faanilo-portfolio-generator.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
