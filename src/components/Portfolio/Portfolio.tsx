@@ -9,7 +9,8 @@ export function Portfolio() {
       <h2>All project</h2>
 
       <div className="projects">
-        <ScrollAnimation animateIn="flipInX" delay={0.6*1000}>
+        
+      <ScrollAnimation animateIn="flipInX" delay={0.6*1000}>
           <div className="project">
             <header>
               <svg
@@ -51,6 +52,44 @@ export function Portfolio() {
               <ul className="tech-list">
                 <li>ReactJs</li>
                 <li>Boostrap</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX" delay={0.7*1000}>
+          <div className="project">
+            <header>
+              <svg
+                width="50"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#016fb9 "
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <div className="project-links">
+                <a
+                  href="https://github.com/Faanilo/lyrics_finder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={githubIcon} alt="GitHub" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Lyrics-Finder</h3>
+              <p>a Command Line Interface  to search lyrics</p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>nodeJs</li>
               </ul>
             </footer>
           </div>

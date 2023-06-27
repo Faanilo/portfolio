@@ -12,7 +12,7 @@ import MONGO from "../../assets/mongo.png";
 export function Techno() {
   return (
     <Container id="techno">
-      <h2>What I can do ? </h2>
+      <h2>SKILLS</h2>
       <div className="technos">
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <div className="techno">
