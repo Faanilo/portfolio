@@ -17,6 +17,8 @@ import sassIcon from "../../assets/sass-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vscodeIcon from "../../assets/vscode-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
+import mongoIcon from '../../assets/mongo.png'
+import nextIcon from '../../assets/nextjs.png'
 
 
 export function Main(){
@@ -207,7 +209,16 @@ export function Main(){
                 "width": 20,
                 "height": 20
               },
-          
+              {
+                "src": mongoIcon,
+                "width": 20,
+                "height": 20
+              },
+              {
+                "src": nextIcon,
+                "width": 20,
+                "height": 20
+              },
             ],
             "polygon": {
               "sides": 5

@@ -1,11 +1,9 @@
 import {Container} from "./styles";
 
-import reactIcon from "../../assets/react-icon.svg";
 import linkedinIcon from "../../assets/linkedin.png";
 import githubIcon from "../../assets/github.png";
 import instagramIcon from "../../assets/instagram.png";
 import discordIcon from "../../assets/discord.png";
-
 export function Footer(){
   return(
     <Container className="footer">

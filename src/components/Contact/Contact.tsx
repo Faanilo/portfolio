@@ -2,12 +2,13 @@ import { Container } from "./styles";
 import emailIcon from "../../assets/email-icon.svg";
 import phoneIcon from "../../assets/phone-icon.svg"
 import { Form } from "../Form/Form";
-
+import ScrollAnimation from "react-animate-on-scroll";
 
 export function Contact(){
 
   return(
     <Container id="contact">
+      <ScrollAnimation animateIn="fadeInRight">
       <header>
         <h2>Contact Me</h2>
         <p>If you saw my potential or want to talk to me, don't hesitate to send me a message.</p>
@@ -22,6 +23,7 @@ export function Contact(){
           <a href="tel:+261327379128">(+261) 327379128</a>
         </div>  
       </div>
+      </ScrollAnimation>
       <Form></Form>
     </Container>
   )

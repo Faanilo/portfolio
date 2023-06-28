@@ -1,10 +1,11 @@
 import { Container } from "./styles";
-
+import  ScrollAnimation  from "react-animate-on-scroll";
 export function Form() {
   
   return (
     <Container>
       <h2>Get in touch using the form below.</h2>
+      <ScrollAnimation animateIn="fadeInLeft">
       <form
         action="https://getform.io/f/bec145ac-14cd-445b-bd24-5139a88174bb"
         method="POST"
@@ -16,6 +17,7 @@ export function Form() {
           Send
         </button>
       </form>
+      </ScrollAnimation>
     </Container>
   );
 }

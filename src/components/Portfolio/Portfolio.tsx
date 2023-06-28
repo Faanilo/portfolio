@@ -36,7 +36,7 @@ export function Portfolio() {
                   <img src={githubIcon} alt="GitHub" />
                 </a>
                 <a
-                  href="https://faanilo-portfolio-generator.vercel.app/"
+                  href="https://portfolio-gen.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
