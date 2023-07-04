@@ -4,6 +4,7 @@ import phoneIcon from "../../assets/phone-icon.svg"
 import { Form } from "../Form/Form";
 import ScrollAnimation from "react-animate-on-scroll";
 
+
 export function Contact(){
 
   return(

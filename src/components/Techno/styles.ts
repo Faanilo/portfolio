@@ -10,6 +10,7 @@ export const Container = styled.section`
   }
 
   .technos {
+    margin-left : 125px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -26,8 +27,8 @@ export const Container = styled.section`
       height: 100%;
       color: #fff;
 
-      img {
-        width: 100%;
+      img {        
+        width: 50%;
         height: auto;
       }
 
@@ -56,6 +57,7 @@ export const Container = styled.section`
   
   @media (max-width: 480px) {
     .techno {
+      margin-left : -25px;
       img {
         max-width: 100%;
         height: auto;
