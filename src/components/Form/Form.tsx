@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import axios from "axios";
 
 export function Form() {
-  const getformEndpoint = "https://app.getform.io/forms/50246"; // Update the endpoint URL
+  const getformEndpoint = "https://getform.io/f/bec145ac-14cd-445b-bd24-5139a88174bb"; // Update the endpoint URL
   const recipientEmail = "faniloniainaa21@gmail.com"; // Update with desired recipient email
 
   const handleSubmit = async (event: any) => {
