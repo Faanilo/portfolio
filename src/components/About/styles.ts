@@ -46,7 +46,8 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 100%;
+     margin-left:8rem;
+     width: 50%;
      filter: grayscale(1);
      transition: filter 0.5s;
      &:hover{
@@ -68,6 +69,7 @@ export const Container = styled.section`
 
     .about-image{
       display: flex;
+
     }
     .hard-skills{
       justify-content: center;

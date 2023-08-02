@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
-
+import prf from '../../assets/prf.png'
 export function About() {
   return (
     <Container id="about">
@@ -36,7 +36,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="" alt="image-prf" />
+          <img src={prf} alt="image-prf" />
         </ScrollAnimation>
       </div>
     </Container>
